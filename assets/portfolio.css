@@ -39,3 +39,7 @@ html {
 .nav-item {
     margin: 0 0.5rem;
 }
+
+.ts-heading {
+    font-weight: bold;
+}

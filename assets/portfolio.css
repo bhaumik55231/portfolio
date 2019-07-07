@@ -1,0 +1,26 @@
+.nav-item {
+    font-weight: bold;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.heading {
+    color: #5050dc;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.sub-heading {
+    color: #77494e;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 1rem 0;
+}

@@ -24,3 +24,8 @@ html {
     font-size: 1rem;
     margin: 1rem 0;
 }
+
+.work-duration {
+    text-align: right;
+    padding-right: 0px;
+}

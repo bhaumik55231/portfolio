@@ -15,17 +15,27 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#aboutMe" title="About me"><i class="far fa-address-card"></i> About me</a>
-            <a class="nav-item nav-link" href="#experience" title="Experience"><i class="fas fa-user-tie"></i> Experience</a>
-            <a class="nav-item nav-link" href="#education" title="Education"><i class="fas fa-graduation-cap"></i> Education</a>
-            <a class="nav-item nav-link" href="#technicalSkills" title="Technical skills"><i class="fas fa-laptop-code"></i> Technical skills</a>
-            <a class="nav-item nav-link" href="#contactMe" title="Contact me"><i class="far fa-address-book"></i> Contact me</a>
-          </div>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="border-left"></div>
+                    <a class="nav-item nav-link active" href="#aboutMe" title="About me"><i class="far fa-address-card"></i> About me</a>
+                    <div class="border-left"></div>
+                    <a class="nav-item nav-link" href="#experience" title="Experience"><i class="fas fa-user-tie"></i> Experience</a>
+                    <div class="border-left"></div>    
+                    <a class="nav-item nav-link" href="#project" title="Project"><i class="far fa-file-code"></i> Project</a>
+                    <div class="border-left"></div>
+                    <a class="nav-item nav-link" href="#education" title="Education"><i class="fas fa-graduation-cap"></i> Education</a>
+                    <div class="border-left"></div>
+                    <a class="nav-item nav-link" href="#technicalSkills" title="Technical skills"><i class="fas fa-laptop-code"></i> Technical skills</a>
+                    <div class="border-left"></div>
+                    <a class="nav-item nav-link" href="#contactMe" title="Contact me"><i class="far fa-address-book"></i> Contact me</a>
+                    <div class="border-right"></div>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="container">
@@ -48,7 +58,7 @@
         </div>
         <div id="experience">
             <div class="row">
-                <div class="col heading">Experience</div>
+                <div class="col heading"><i class="fas fa-user-tie"></i>Experience</div>
             </div>
 
             <div class="row">
@@ -75,15 +85,33 @@
             </div>
 
             <div class="row">
-                    <div class="col-md-9 sub-heading">RESEARCH ASSISTANT | CENTER FOR TECHNOLOGY IN GOVERNMENT, SUNYRF</div>
-                    <div class="col-md-3 sub-heading work-duration">JANUARY '17 – AUGUST '17</div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+                <div class="col-md-9 sub-heading">RESEARCH ASSISTANT | CENTER FOR TECHNOLOGY IN GOVERNMENT, SUNYRF</div>
+                <div class="col-md-3 sub-heading work-duration">JANUARY '17 – AUGUST '17</div>
+                <ul>
+                    <li>Contributed in the development of a project that will benefit millions of New Yorkers by allowing them to visual access to huge amount of data in easily digestible visuals.</li>
+                    <li>Research, design and implement different visualization based on different Department of Health dataset.</li>
+                    <li>Worked in a team which developed a project for New York State - department of health (DOH - 2017), where large data is transformed in a user-friendly manner using d3.js & JQuery Mapael. Analyzed Adult Care Facility Data to create an interactive dynamic map which represents adult care facilities with their details.</li>
+                    <li>Large amount of data was yielded from open data New York using SOCRATA API.</li>
+                    <li>Analyzed NYS Data and determined which data visualization technique would be most suitable to represent those datasets.</li>
+                    <li>Developed dynamic interactive graphs using D3.js, which will better represent the data in an easy to readable format, and will adapt to the new datasets added every year.</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9 sub-heading">JAVA WEB DEVELOPER (INTERN / PART TIME) | SOFTVAN PVT LTD</div>
+                <div class="col-md-3 sub-heading work-duration">JULY '14 – APRIL 16</div>
+                <ul>
+                    <li>Developed several java j2ee web applications and maintained them.</li>
+                    <li>Utilized Hibernate ORM for the Object to Relational Mapping and Hibernate Validator for the server size Validation.</li>
+                    <li>Deployed those web applications on amazon EC2 instance or S3 buckets.</li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="project">
+            <div class="row">
+                <div class="col heading">Project</div>
+            </div>
         </div>
         <div id="education">
             <div class="row">
